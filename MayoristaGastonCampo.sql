@@ -1,3 +1,6 @@
+CREATE DATABASE mayorista;
+USE mayorista;
+
 CREATE TABLE CLIENTES (
 	idCLIENTE int primary key not null auto_increment,
     nombre_cliente varchar(30),
